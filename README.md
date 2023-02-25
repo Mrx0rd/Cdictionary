@@ -1,3 +1,3 @@
 # Cdictionary 
-Demo Dictionary with  C |  
+Demo Dictionary with  C   
 Still Updating 
