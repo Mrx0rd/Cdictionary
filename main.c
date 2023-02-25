@@ -2,8 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include "dictionary.h"
-
-struct Word_Dict* dictionary = NULL;
+#include <ctype.h>
 
 int main() {
     int choice;
@@ -35,8 +34,10 @@ int main() {
                 break;
             case 5:
                 free_memory();
-                return 0;
+        
+                
             default:
+            
                 printf("Choix invalide ! choisir de 1 à 5.\n");
         }
     }
