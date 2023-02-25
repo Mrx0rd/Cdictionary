@@ -110,3 +110,4 @@ void delete_Word_Dict() {
 
     printf("Le mot n'a pas été trouvé dans le dictionnaire.\n");
 }
+#endif
